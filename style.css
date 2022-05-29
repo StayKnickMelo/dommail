@@ -1,0 +1,29 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    background: #fff;
+    padding: 10px 16px;
+    max-width: 568px;
+    margin:0 auto;
+}
+.header-links a{
+    text-decoration: none;
+}
+
+.header-links a:not(:last-child){
+    margin-right: 15px;
+}
+
+.shopping{
+    width: 200px;
+    height: 200px;
+    background: url('./img/shopping.svg') no-repeat center center / cover;
+}
+
+@media(width >= 600px ){
+    .header-links{
+        display:none;
+    }
+}
